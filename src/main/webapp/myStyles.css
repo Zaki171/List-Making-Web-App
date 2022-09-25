@@ -1,0 +1,122 @@
+
+h1 {
+    font-weight: bold;
+    color: black;
+    font-size: 64px;
+}
+
+
+.main ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.main ul ul li {
+    position: relative;
+    float: left;
+    left: 100px;
+    margin: 5px;
+}
+
+#list a {
+    top: 33px;
+    color: azure;
+    position: relative;
+    background-color: aqua;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 75px;
+    border-left:1em solid transparent;
+    border-right:1em solid transparent;
+}
+
+.main ul ul .delete a {
+    color: azure;
+    background-color: red;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+body {
+    position: relative;
+    background-color: lightblue;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+.adding {
+    position: relative;
+    width: 100px;
+}
+
+.adding input {
+    margin: 10px;
+}
+
+#section {
+    list-style-type: none;
+    display: inline-block;
+    border:10px solid black;
+    padding: 20px;
+    float: left;
+    clear: left;
+}
+#section #items,#actions {
+    list-style-type: none;
+}
+
+#items li {
+    padding: 5px;
+}
+
+#actions li {
+    margin: 10px;
+    display: inline-block;
+}
+
+
+.input form input {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 5px;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li {
+    padding: 2.5em;
+}
+
+#menu li a {
+    color: azure;
+    background-color: chartreuse;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 32px;
+    width: 200px;
+    display: block;
+}
+
+ul #allItems {
+    border: 10px solid black;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    list-style-position: inside;
+    float: left;
+}
+
